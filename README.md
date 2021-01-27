@@ -65,6 +65,7 @@ Here is the list of properties you can use to configure this method:
  3. categoryId (int)  ==> search by a specific category (optional).
     for the full categories list https://pages.ebay.com/sellerinformation/news/fallupdate16/category-and-item.html
  4. location (Location) ==> search by the closest sellers (optional)
+    the sortOrder of the results will be by Distance.
 
 ## License
  Copyright 2019-2020 Bar Ovda
