@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <declare-styleable name="EbayDisplayFragment">
+        <attr name="display_view_orientation" format="enum">
+            <enum name="vertical" value="0"/>
+            <enum name="horizontal" value="1"/>
+        </attr>
+        <attr name="view_style" format="enum">
+            <enum name="classic" value="0"/>
+            <enum name="modern" value="1"/>
+        </attr>
+
+        <attr name="view_background_color" format="color"/>
+        <attr name="card_background_color" format="color"/>
+
+        <attr name="text_color" format="color"/>
+
+    </declare-styleable>
+
+</resources>

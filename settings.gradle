@@ -1,0 +1,3 @@
+include ':EbayAutoDisplayLlibrary'
+include ':app'
+rootProject.name = "EbayAutoDisplay"
