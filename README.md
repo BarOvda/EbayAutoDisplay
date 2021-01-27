@@ -60,7 +60,7 @@ Here is the list of properties you can use to configure this view:
 ```
 Here is the list of properties you can use to configure this method:
  1. ebayAppID (String)  ==> your application api ID
-    you can generate ID with this link https://developer.ebay.com/tools/quick-start
+    \nyou can generate ID with this link https://developer.ebay.com/tools/quick-start
  2. keyWord (String) ==> the search key word
  3. categoryId (int)  ==> search by a specific category (optional).
     for the full categories list https://pages.ebay.com/sellerinformation/news/fallupdate16/category-and-item.html
