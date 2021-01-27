@@ -33,14 +33,9 @@ Step 2. Add the dependency
 ## XML
 ```
    <com.example.ebayautodisplayllibrary.EbayDisplayFragment
-        android:id="@+id/ebay_element"
-        android:layout_width="384dp"
-        android:layout_height="485dp"
-        android:layout_marginStart="16dp"
-        android:layout_marginLeft="16dp"
-        android:layout_marginTop="56dp"
-        app:layout_constraintTop_toBottomOf="@+id/textView"
-        app:layout_constraintStart_toStartOf="parent"
+        android:id="@+id/ebay_display_frame_layout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
         
         app:view_style="modern"
         app:text_color="@color/black"
