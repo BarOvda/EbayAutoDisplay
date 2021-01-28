@@ -47,11 +47,7 @@ Step 2. Add the dependency
         app:text_color="@color/black"
         app:view_background_color="@drawable/example_style"
         app:card_background_color="@drawable/example_style"
-        app:display_view_orientation="vertical"
-       >
-
-    </com.example.ebayautodisplayllibrary.EbayDisplayFragment>
-
+        app:display_view_orientation="vertical"/>
 ```
 Here is the list of properties you can use to configure this view:
  1. app:view_style (enum {classic,modern})  ==> sets the style of the card views content (deafult value:"classic")
