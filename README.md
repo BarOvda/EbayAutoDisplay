@@ -1,8 +1,11 @@
 # EbayAutoDisplay
 
 Simple way to use Ebay finding API.
+
 With this libarary, you can find Ebay proudacts by submitted String.
+
 Use Category ID and Location for more specific results.
+
 You can choose and custome your own design.
 ### Samples
 |   |   |
