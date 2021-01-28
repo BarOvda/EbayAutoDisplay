@@ -116,13 +116,7 @@ public class EbayDriver extends AsyncTask<Void, Void, Void> {
 
         this.perPage = maxResults;
     }
-
-
-
-
     private String createAddress(String tag) {
-
-
         //substitute token
         String address = EBAY_FINDING_SERVICE_URI;
         address = address.replace("{version}", SERVICE_VERSION);

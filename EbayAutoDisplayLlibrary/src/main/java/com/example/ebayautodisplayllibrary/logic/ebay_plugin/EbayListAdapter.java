@@ -8,6 +8,7 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.ImageView;
+import android.widget.RelativeLayout;
 import android.widget.TextView;
 
 import androidx.annotation.NonNull;
@@ -27,14 +28,16 @@ public class EbayListAdapter extends RecyclerView.Adapter<EbayListAdapter.GameVi
     private Context mContext;
     private List<EbayTitle> mItems;
     private int style;
+    private int oriantion;
     private int textColor;
     private Drawable cardBackgrond;
 
-    public EbayListAdapter(Context mContext, List<EbayTitle> mGames, int style, int textColor, Drawable cardBackgroundColor) {
+    public EbayListAdapter(Context mContext, List<EbayTitle> mGames, int style, int textColor, Drawable cardBackgroundColor,int oriantion) {
         this.mItems = new ArrayList<>();
         this.mContext = mContext;
         this.mItems = mGames;
         this.style = style;
+        this.oriantion = oriantion;
         this.textColor = textColor;
         this.cardBackgrond=cardBackgroundColor;
     }
@@ -53,6 +56,14 @@ public class EbayListAdapter extends RecyclerView.Adapter<EbayListAdapter.GameVi
     @Override
     public void onBindViewHolder(@NonNull EbayListAdapter.GameViewHolder holder, final int position) {
         final EbayTitle currentTitle = mItems.get(position);
+        if(oriantion==1) {
+            holder.imageView.getLayoutParams().width = 240;
+            holder.imageView.requestLayout();
+
+        }
+
+
+
         holder.textViewName.setText((currentTitle.getTitle()));
         Picasso.with(holder.imageView.getContext()).load(currentTitle.getGalleryUrl())
                 .fit()

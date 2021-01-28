@@ -13,10 +13,10 @@ public class MainActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-        Location location = new Location("");
-        location.setLatitude(33.665354);
-        location.setLongitude(-117.199018);
+        Location mLocation = new Location("");
+        mLocation.setLatitude(33.665354);
+        mLocation.setLongitude(-117.199018);
         EbayDisplayFragment ebayDisplayFragment = findViewById(R.id.ebay_element);
-        ebayDisplayFragment.initEbayAutoDisplay(EBAY_APP_ID,"soap");
+        ebayDisplayFragment.initEbayAutoDisplay(EBAY_APP_ID,"Apple iPhone 10",9355);
     }
 }

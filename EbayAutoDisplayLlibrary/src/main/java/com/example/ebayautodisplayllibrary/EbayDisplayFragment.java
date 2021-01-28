@@ -86,12 +86,14 @@ public class EbayDisplayFragment extends FrameLayout {
     protected synchronized void onDraw(Canvas canvas) {
         super.onDraw(canvas);
     }
+
     public void initEbayAutoDisplay(String ebayAppID,String keyWord){
         this.ebayAppID = ebayAppID;
         this.keyWord = keyWord;
         this.categoryId=-1;
         init(this.context);
     }
+
     public void initEbayAutoDisplay(String ebayAppID,String keyWord,int categoryId){
         this.ebayAppID = ebayAppID;
         this.keyWord = keyWord;
@@ -146,7 +148,7 @@ public class EbayDisplayFragment extends FrameLayout {
         } catch (Exception e) {
             e.printStackTrace();
         }
-        ebayListAdapter = new EbayListAdapter(EbayDisplayFragment.this.getContext(),driver.getTitles(), this.style.ordinal(),textColor,cardBackgroundColor);
+        ebayListAdapter = new EbayListAdapter(EbayDisplayFragment.this.getContext(),driver.getTitles(), this.style.ordinal(),textColor,cardBackgroundColor,this.view_direction.ordinal());
         if(this.view_direction==orientation.horizontal) {
             EbayTitleRecyclerView.setLayoutManager(new LinearLayoutManager(this.getContext(), LinearLayoutManager.HORIZONTAL, false));
         }
@@ -154,6 +156,9 @@ public class EbayDisplayFragment extends FrameLayout {
             EbayTitleRecyclerView.setLayoutManager(new GridLayoutManager(getContext(), NUMBER_OF_ITEMS_IN_A_ROW));
         }
         EbayTitleRecyclerView.setAdapter(ebayListAdapter);
+        progressBar.setVisibility(View.VISIBLE);
+        progressBar.bringToFront();
+
     }
     private void setPaginationFormat(){
         if(this.view_direction==orientation.horizontal) {
