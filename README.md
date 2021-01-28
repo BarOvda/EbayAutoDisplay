@@ -67,13 +67,13 @@ Here is the list of properties you can use to configure this view:
 Here is the list of properties you can use to configure this method:
  1. ebayAppID (String)  ==> your application api ID. 
  
- you can generate ID with this link: <a href="https://developer.ebay.com/tools/quick-start "><img src="https://cdn2.iconfinder.com/data/icons/social-icons-circular-color/512/ebay-512.png" width="30" height="30"/></a>
+    you can generate ID with this link: <a href="https://developer.ebay.com/tools/quick-start "><img src="https://cdn2.iconfinder.com/data/icons/social-icons-circular-color/512/ebay-512.png" width="30" height="30"/></a>
  
  2. keyWord (String) ==> the search key word
  
  3. categoryId (int)  ==> search by a specific category (optional). 
  
- for the full categories list: <a href="https://pages.ebay.com/sellerinformation/news/fallupdate16/category-and-item.html"><img src="https://cdn2.iconfinder.com/data/icons/social-icons-circular-color/512/ebay-512.png" width="30" height="30"/></a> 
+    for the full categories list: <a href="https://pages.ebay.com/sellerinformation/news/fallupdate16/category-and-item.html"><img src="https://cdn2.iconfinder.com/data/icons/social-icons-circular-color/512/ebay-512.png" width="30" height="30"/></a> 
  
  4. location (Location) ==> search by the closest sellers (optional)
     the sortOrder of the results will be by Distance.
