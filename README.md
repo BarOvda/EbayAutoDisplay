@@ -71,7 +71,7 @@ Here is the list of properties you can use to configure this method:
  2. keyWord (String) ==> the search key word
  3. categoryId (int)  ==> search by a specific category (optional).
  
-    for the full categories list <a href="https://pages.ebay.com/sellerinformation/news/fallupdate16/category-and-item.html"><img width="100%" height="auto" src="https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.iconfinder.com%2Ficons%2F1220326%2Febay_icon&psig=AOvVaw0QrTBBVetmzmGtGXP5aNL&ust=1611890699046000&source=images&cd=vfe&ved=0CAIQjRxqFwoTCIDf0PnWve4CFQAAAAAdAAAAABAD" width="30" height="30"/></a> 
+    for the full categories list <a href="https://pages.ebay.com/sellerinformation/news/fallupdate16/category-and-item.html"><img width="100%" height="auto" src="https://cdn2.iconfinder.com/data/icons/social-icons-circular-color/512/ebay-512.png" width="30" height="30"/></a> 
  4. location (Location) ==> search by the closest sellers (optional)
     the sortOrder of the results will be by Distance.
 
