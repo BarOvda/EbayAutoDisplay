@@ -10,7 +10,7 @@ You can choose and custome your own design.
 ### Samples
 |   |   |
 |:-:|:-:|
- <img  src="samples/sample 1.gif" alt="Example 1" width="200" style="max-width:100%;"> | <img  src="samples/sample 2.gif" alt="Example 1" width="200" style="max-width:100%;"> |<img src="samples/sample 3.gif" alt="Example 1" width="200" style="max-width:100%;"> |<img src="samples/sample 4.gif" alt="Example 1" width="200" style="max-width:100%;"> 
+ <img  src="/sample 1.gif" alt="Example 1" width="200" style="max-width:100%;"> | <img  src="/sample 2.gif" alt="Example 1" width="200" style="max-width:100%;"> |<img src="/sample 3.gif" alt="Example 1" width="200" style="max-width:100%;"> |<img src="/sample 4.gif" alt="Example 1" width="200" style="max-width:100%;"> 
 
 
 
