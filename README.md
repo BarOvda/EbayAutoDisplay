@@ -4,8 +4,7 @@ Use Ebay finding API easily with this libarary
 ### Samples
 |   |   |
 |:-:|:-:|
- <img  src="/sample4.gif" alt="Example 1" width="200" style="max-width:100%;"> | <img  src="/sample5.gif" alt="Example 1" width="200" style="max-width:100%;"> |
-| <img src="/sample6.gif" alt="Example 1" width="200" style="max-width:100%;"> 
+ <img  src="samples/sample 1.gif" alt="Example 1" width="200" style="max-width:100%;"> | <img  src="samples/sample 2.gif" alt="Example 1" width="200" style="max-width:100%;"> |<img src="samples/sample 3.gif" alt="Example 1" width="200" style="max-width:100%;"> |<img src="samples/sample 4.gif" alt="Example 1" width="200" style="max-width:100%;"> 
 
 
 
