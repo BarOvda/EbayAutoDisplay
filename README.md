@@ -1,17 +1,21 @@
 # EbayAutoDisplay
 
 Simple way to use Ebay finding API.
+
 With this libarary, you can find Ebay proudacts by submitted String.
+
 Use Category ID and Location for more specific results.
+
 You can choose and custome your own design.
 ### Samples
 |   |   |
 |:-:|:-:|
- <img  src="samples/sample 1.gif" alt="Example 1" width="200" style="max-width:100%;"> | <img  src="samples/sample 2.gif" alt="Example 1" width="200" style="max-width:100%;"> |<img src="samples/sample 3.gif" alt="Example 1" width="200" style="max-width:100%;"> |<img src="samples/sample 4.gif" alt="Example 1" width="200" style="max-width:100%;"> 
+ <img  src="/sample 1.gif" alt="Example 1" width="200" style="max-width:100%;"> | <img  src="/sample 2.gif" alt="Example 1" width="200" style="max-width:100%;"> 
+ |<img src="/sample 3.gif" alt="Example 1" width="200" style="max-width:100%;"> |<img src="/sample 4.gif" alt="Example 1" width="200" style="max-width:100%;"> 
 
 
 
-[![](https://jitpack.io/v/BarOvda/CircularRatingWithAvatar.svg)](https://jitpack.io/#BarOvda/CircularRatingWithAvatar/1.1)
+[![](https://jitpack.io/v/BarOvda/EbayAutoDisplay.svg)](https://jitpack.io/#BarOvda/EbayAutoDisplay)
 
 ## Setup
 
@@ -27,7 +31,7 @@ Add it in your root build.gradle at the end of repositories:
 Step 2. Add the dependency
 
 	dependencies {
-	        implementation 'com.github.BarOvda:'
+	        implementation 'com.github.BarOvda:EbayAutoDisplay:TAG'
 	}
 	
 	
@@ -43,11 +47,7 @@ Step 2. Add the dependency
         app:text_color="@color/black"
         app:view_background_color="@drawable/example_style"
         app:card_background_color="@drawable/example_style"
-        app:display_view_orientation="vertical"
-       >
-
-    </com.example.ebayautodisplayllibrary.EbayDisplayFragment>
-
+        app:display_view_orientation="vertical"/>
 ```
 Here is the list of properties you can use to configure this view:
  1. app:view_style (enum {classic,modern})  ==> sets the style of the card views content (deafult value:"classic")
@@ -61,11 +61,16 @@ Here is the list of properties you can use to configure this view:
    ebayDisplayFrameLayout.initEbayAutoDisplay(EBAY_APP_ID,"Apple iPhone 8",9355,mLocation);
 ```
 Here is the list of properties you can use to configure this method:
- 1. ebayAppID (String)  ==> your application api ID
-    \nyou can generate ID with this link https://developer.ebay.com/tools/quick-start
+ 1. ebayAppID (String)  ==> your application api ID. 
+ 
+    you can generate ID with this link: <a href="https://developer.ebay.com/tools/quick-start "><img src="https://cdn2.iconfinder.com/data/icons/social-icons-circular-color/512/ebay-512.png" width="30" height="30"/></a>
+ 
  2. keyWord (String) ==> the search key word
- 3. categoryId (int)  ==> search by a specific category (optional).
-    for the full categories list https://pages.ebay.com/sellerinformation/news/fallupdate16/category-and-item.html
+ 
+ 3. categoryId (int)  ==> search by a specific category (optional). 
+ 
+    for the full categories list: <a href="https://pages.ebay.com/sellerinformation/news/fallupdate16/category-and-item.html"><img src="https://cdn2.iconfinder.com/data/icons/social-icons-circular-color/512/ebay-512.png" width="30" height="30"/></a> 
+ 
  4. location (Location) ==> search by the closest sellers (optional)
     the sortOrder of the results will be by Distance.
 
