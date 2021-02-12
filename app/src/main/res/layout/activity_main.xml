@@ -34,8 +34,7 @@
         app:text_color="@color/black"
         app:view_background_color="@drawable/example_style_background"
 
-        app:view_style="modern">
+        app:view_style="modern"/>
 
-    </com.example.ebayautodisplayllibrary.EbayDisplayFragment>
 
 </androidx.constraintlayout.widget.ConstraintLayout>
