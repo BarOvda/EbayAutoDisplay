@@ -6,8 +6,14 @@ With this libarary, you can find Ebay proudacts by submitted String.
 
 Use Category ID and Location for more specific results.
 
-You can choose and custome your own design.
+Use location for nearby sellers view. (Works best with USA and Europe locations)
+
+Choose and custome your own design!
+
+
 ### Samples
+ <img  src="/search_sample.PNG" alt="sample 1" width="200" style="max-width:100%;"> 
+
 |   |   |
 |:-:|:-:|
  <img  src="/sample 1.gif" alt="Example 1" width="200" style="max-width:100%;"> | <img  src="/sample 2.gif" alt="Example 1" width="200" style="max-width:100%;"> 
