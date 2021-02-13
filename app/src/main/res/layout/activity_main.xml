@@ -21,20 +21,14 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
-    <com.example.ebayautodisplayllibrary.EbayDisplayFragment
 
-        android:id="@+id/ebay_element"
+    <FrameLayout
         android:layout_width="match_parent"
-        android:layout_height="681dp"
-        android:layout_marginTop="4dp"
+        android:layout_height="match_parent"
+        android:layout_marginTop="50dp"
+        android:id="@+id/fragment_container">
 
-        app:card_background_color="@drawable/example_style"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textView"
-        app:text_color="@color/black"
-        app:view_background_color="@drawable/example_style_background"
 
-        app:view_style="modern"/>
-
+    </FrameLayout>
 
 </androidx.constraintlayout.widget.ConstraintLayout>

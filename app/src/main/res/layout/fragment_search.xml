@@ -1,14 +1,93 @@
 <?xml version="1.0" encoding="utf-8"?>
 <FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".SearchFragment">
 
-    <!-- TODO: Update blank fragment layout -->
-    <TextView
+    <androidx.constraintlayout.widget.ConstraintLayout
+
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:text="@string/hello_blank_fragment" />
+        android:layout_height="match_parent">
+
+
+        <EditText
+            android:id="@+id/text_word_edit_text"
+            android:layout_width="273dp"
+            android:layout_height="46dp"
+
+            android:layout_marginTop="32dp"
+            android:autofillHints="@string/key_word"
+            android:hint="@string/key_word"
+            android:inputType="text"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.5"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/imageView" />
+
+        <EditText
+            android:id="@+id/category_edit_text"
+            android:layout_width="273dp"
+            android:layout_height="46dp"
+
+            android:layout_marginTop="60dp"
+            android:autofillHints="@string/categoryid_example_9355"
+            android:hint="@string/categoryid_example_9355"
+            android:inputType="number"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.5"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/text_word_edit_text" />
+
+        <TextView
+            android:id="@+id/location_text_view"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="4dp"
+            android:layout_marginLeft="4dp"
+            android:layout_marginTop="68dp"
+            android:text="@string/by_location"
+            android:textSize="20sp"
+            app:layout_constraintStart_toEndOf="@+id/location_check_box"
+            app:layout_constraintTop_toBottomOf="@+id/category_edit_text" />
+
+        <Button
+            android:id="@+id/search_button"
+            android:layout_width="187dp"
+            android:layout_height="47dp"
+
+            android:layout_marginStart="112dp"
+            android:layout_marginLeft="112dp"
+            android:layout_marginRight="112dp"
+            android:layout_marginTop="116dp"
+            android:text="@string/search"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/location_text_view" />
+
+        <CheckBox
+            android:id="@+id/location_check_box"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="68dp"
+            android:layout_marginLeft="68dp"
+            android:layout_marginTop="60dp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/category_edit_text" />
+
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="409dp"
+            android:layout_height="157dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.5"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/ebay_logo"
+            android:contentDescription="@string/icon" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
 
 </FrameLayout>

@@ -39,7 +39,7 @@ public class EbayDriver extends AsyncTask<Void, Void, Void> {
             + "&GLOBAL-ID={globalId}&siteid=0"
             ;
     private static final String SERVICE_VERSION = "1.0.0";
-    private static final String OPERATION_NAME = /*"findItemsByKeywords"*/"findItemsAdvanced";
+    private static final String OPERATION_NAME = "findItemsAdvanced";
     private static final String GLOBAL_ID = "EBAY-US";
     private final static int REQUEST_DELAY = 0;
     private final static int PER_PAGE =16;
