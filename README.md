@@ -60,29 +60,29 @@ Step 2. Add the dependency
         app:display_view_orientation="vertical"/>
 ```
 Here is the list of properties you can use to configure this view:
- 1. app:view_style (enum {classic,modern})  ==> sets the style of the card views content (deafult value:"classic")
- 2. app:text_color (color) ==> sets the text color (deafult value:Color.BLACK)
- 3. app:view_background_color (drawable)  ==> sets the background of the frame (deafult value:Color.WHITE)
- 4. app:card_background_color (color) ==> sets the background of the card views (deafult value:Color.WHITE)
- 5. app:display_view_orientation (enum {vertical,horizontal}) ==> sets the orientation of the LayoutManager (deafult value:"vertical")
+ 1. app:view_style (enum {classic,modern})  ==> Sets the style of the card views content (deafult value:"classic")
+ 2. app:text_color (color) ==> Sets the text color (deafult value:Color.BLACK)
+ 3. app:view_background_color (drawable)  ==> Sets the background of the frame (deafult value:Color.WHITE)
+ 4. app:card_background_color (color) ==> Sets the background of the card views (deafult value:Color.WHITE)
+ 5. app:display_view_orientation (enum {vertical,horizontal}) ==> Sets the orientation of the LayoutManager (deafult value:"vertical")
 
 ## JAVA
 ```
    ebayDisplayFrameLayout.initEbayAutoDisplay(EBAY_APP_ID,"Apple iPhone 8",9355,mLocation);
 ```
 Here is the list of properties you can use to configure this method:
- 1. ebayAppID (String)  ==> your application API ID. 
+ 1. ebayAppID (String)  ==> Your application API ID. 
  
-    you can generate ID with this link: <a href="https://developer.ebay.com/tools/quick-start "><img src="https://cdn2.iconfinder.com/data/icons/social-icons-circular-color/512/ebay-512.png" width="30" height="30"/></a>
+    You can generate an ID with this link: <a href="https://developer.ebay.com/tools/quick-start "><img src="https://cdn2.iconfinder.com/data/icons/social-icons-circular-color/512/ebay-512.png" width="30" height="30"/></a>
  
- 2. keyWord (String) ==> the search key word
+ 2. keyWord (String) ==> The search key word
  
- 3. categoryId (int)  ==> search by a specific category (optional). 
+ 3. categoryId (int)  ==> Search by a specific category (optional). 
  
-    for the full categories list: <a href="https://pages.ebay.com/sellerinformation/news/fallupdate16/category-and-item.html"><img src="https://cdn2.iconfinder.com/data/icons/social-icons-circular-color/512/ebay-512.png" width="30" height="30"/></a> 
+    For the full categories list: <a href="https://pages.ebay.com/sellerinformation/news/fallupdate16/category-and-item.html"><img src="https://cdn2.iconfinder.com/data/icons/social-icons-circular-color/512/ebay-512.png" width="30" height="30"/></a> 
  
  4. location (Location) ==> search by the closest sellers (optional)
-    the sortOrder of the results will be by Distance.
+    The sort order of the results will be by Distance.
 
 ## License
  Copyright 2019-2020 Bar Ovda
