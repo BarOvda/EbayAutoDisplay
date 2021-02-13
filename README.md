@@ -12,8 +12,12 @@ Choose and custome your own design!
 
 
 ### Samples
- <img  src="/search_sample.PNG" alt="sample 1" width="200" style="max-width:100%;"> 
 
+#### Example test form
+
+<img  src="/search_sample.PNG" alt="sample 1" width="200" style="max-width:100%;"> 
+
+#### Designs samples
 |   |   |
 |:-:|:-:|
  <img  src="/sample 1.gif" alt="Example 1" width="200" style="max-width:100%;"> | <img  src="/sample 2.gif" alt="Example 1" width="200" style="max-width:100%;"> 
