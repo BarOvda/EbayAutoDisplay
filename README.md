@@ -71,7 +71,7 @@ Here is the list of properties you can use to configure this view:
    ebayDisplayFrameLayout.initEbayAutoDisplay(EBAY_APP_ID,"Apple iPhone 8",9355,mLocation);
 ```
 Here is the list of properties you can use to configure this method:
- 1. ebayAppID (String)  ==> your application api ID. 
+ 1. ebayAppID (String)  ==> your application API ID. 
  
     you can generate ID with this link: <a href="https://developer.ebay.com/tools/quick-start "><img src="https://cdn2.iconfinder.com/data/icons/social-icons-circular-color/512/ebay-512.png" width="30" height="30"/></a>
  
