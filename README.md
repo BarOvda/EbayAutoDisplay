@@ -81,7 +81,7 @@ Here is the list of properties you can use to configure this method:
  
     For the full categories list: <a href="https://pages.ebay.com/sellerinformation/news/fallupdate16/category-and-item.html"><img src="https://cdn2.iconfinder.com/data/icons/social-icons-circular-color/512/ebay-512.png" width="30" height="30"/></a> 
  
- 4. location (Location) ==> search by the closest sellers (optional)
+ 4. location (Location) ==> Search by the closest sellers (optional)
     The sort order of the results will be by Distance.
 
 ## License
