@@ -63,7 +63,7 @@ Here is the list of properties you can use to configure this view:
  1. app:view_style (enum {classic,modern})  ==> Sets the style of the card views content (deafult value:"classic")
  2. app:text_color (color) ==> Sets the text color (deafult value:Color.BLACK)
  3. app:view_background_color (drawable)  ==> Sets the background of the frame (deafult value:Color.WHITE)
- 4. app:card_background_color (color) ==> Sets the background of the card views (deafult value:Color.WHITE)
+ 4. app:card_background_color (drawable) ==> Sets the background of the card views (deafult value:Color.WHITE)
  5. app:display_view_orientation (enum {vertical,horizontal}) ==> Sets the orientation of the LayoutManager (deafult value:"vertical")
 
 ## JAVA
